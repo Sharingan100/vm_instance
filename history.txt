@@ -1,0 +1,212 @@
+    1  l
+    2  ls
+    3  git
+    4  ls
+    5  pwd
+    6  cd /var/html/www
+    7  cd /var
+    8  ls
+    9  sudo apt-get update
+   10  sudo apt-get install python-django
+   11  sudo apt-get install python3-django
+   12  django-admin --version
+   13  sudo apt-get update
+   14  sudo apt-get install python-pip
+   15  sudo apt-get install python3-pip
+   16  pip install ipython
+   17  pip install --upgrade pip
+   18  pip install ipython
+   19  ipython
+   20  pip install 'ipython==6.1.0'
+   21  sudo pip install 'ipython==6.1.0'
+   22  sudo pip install google-cloud
+   23  sudo -H pip install google-cloud
+   24  sudo -H pip install --upgrade pip
+   25  ls
+   26  cd /tmp
+   27  curl -0 https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+   28  wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+   29  whoami
+   30  ls -al
+   31  chmod 755 https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+   32  chmod 755 Anaconda3-5.0.1-Linux-x86_64.sh 
+   33  ./Anaconda3-5.0.1-Linux-x86_64.sh 
+   34  which pyton
+   35  python
+   36  cd
+   37  PWD
+   38  ps
+   39  ls -al
+   40  cd anaconda3
+   41  cd bin
+   42  ls -al
+   43  which python
+   44  python -V
+   45  which pip
+   46  ls
+   47  git pull https://github.com/TanAnanthothai/shopML
+   48  git
+   49  ls
+   50  git clone https://github.com/TanAnanthothai/shopML
+   51  cd shopML/
+   52  python manage.py runserver
+   53  https://github.com/TanAnanthothai/shopML
+   54  sudo apt-get update
+   55  sudo apt-get install python-django
+   56  sudo apt-get install python3-django
+   57  django-admin --version
+   58  sudo apt-get install python3-django
+   59  sudo apt-purge python-django
+   60  sudo apt-get purge python-django
+   61  sudo apt-get purge python3-django
+   62  sudo apt-get install python3-django
+   63  django-admin --version
+   64  cd ..
+   65  django-admin
+   66  python
+   67  pip install django
+   68  sudo -H pip install django
+   69  django-admin --version
+   70  which pip
+   71  which python
+   72  conda install -c anaconda django 
+   73  django-admin --version
+   74  cd shopML/
+   75  python manage.py runserver
+   76  vim ~/.bashrc
+   77  conda search pip
+   78  conda list
+   79  pip uninstall pip
+   80  pip
+   81  logout
+   82  telnet localhost 8000
+   83  cd shopML/
+   84  ls -al
+   85  nano manage.py 
+   86  cat tutorial/settings.py
+   87  cd tutorial/
+   88  nano settings.py
+   89  history
+   90  ipython
+   91  cd ~
+   92  sudo add-apt-repository ppa:certbot/certbot
+   93  whoami
+   94  sudo apt-get update
+   95  sudo apt-get install python-certbot-ngin
+   96  nginx status
+   97  status nginx
+   98  sudo service nginx status
+   99  sudo reboot
+  100  pip
+  101  which pip
+  102  django-admin --version
+  103  pip install djangorestframework
+  104  pip install markdown       # Markdown support for the browsable API.
+  105  pip install django-filter  # Filtering support
+  106  cd shopML/
+  107  python manage.py runserver
+  108  python manage.py runserver 0.0.0.0:80
+  109  sudo python manage.py runserver 0.0.0.0:80
+  110  sudo ./anaconda3/bin/python manage.py runserver 0.0.0.0:80
+  111  sudo ../anaconda3/bin/python manage.py runserver 0.0.0.0:80
+  112  git reset --hard
+  113  git pul
+  114  git pull
+  115  sudo ../anaconda3/bin/python manage.py runserver 0.0.0.0:80
+  116  ../anaconda3/bin/pip install django-cors-headers
+  117  git pull
+  118  sudo ../anaconda3/bin/python manage.py runserver 0.0.0.0:80
+  119  cd shopML/
+  120  ;ls
+  121  ls
+  122  vim manage.py 
+  123  ls
+  124  cd tutoria
+  125  cd tutorial/
+  126  ls
+  127  vim settings.py
+  128  cd ..
+  129  git pull
+  130  vim tutorial/settings.py
+  131  sudo service nginx status
+  132  sudo vim /etc/nginx/sites-available/default 
+  133  sudo nginx -t
+  134  sudo systemctl reload nginx
+  135  sudo ufw status
+  136  history
+  137  which python
+  138  cd shopML/[A
+  139  python manage.py runserver 0.0.0.0:80
+  140  sudo python manage.py runserver 0.0.0.0:80
+  141  sudo ../anaconda3/bin/python manage.py run 0.0.0.0:80
+  142  sudo ../anaconda3/bin/python manage.py runserver 0.0.0.0:80
+  143  telnet localhost 8000
+  144  sudo reboot
+  145  telnet localhost 80
+  146  cd shopML/
+  147  ../anaconda3/bin/python manage.py runserver 0.0.0.0:8000
+  148  sudo ../anaconda3/bin/python manage.py runserver 0.0.0.0:80
+  149  cd shopML/
+  150  sudo ../anaconda3/bin/python manage.py runserver 0.0.0.0:80
+  151  lsof -i :80
+  152  lsof -i :8000
+  153  ls -al /etc/nginx/conf.d/
+  154  sudo service nginx stop
+  155  telnet localhost 80
+  156  sudo service nginx start
+  157  telnet localhost 80
+  158  cd /etc
+  159  cd nginx/i
+  160  s la-l
+  161  ls -al
+  162  cd nginx/
+  163  ls -al
+  164  cd sites-available/
+  165  ls -al
+  166  nano default 
+  167  sudo nano default 
+  168  sudo service nginx stop
+  169  sudo service nginx start
+  170  vim /etc/nginx/sites-available/default 
+  171  sudo ufw status
+  172  clear
+  173  sudo certbot --nginx -d shopapi.nytu.net -d www.shopapi.nytu.net 
+  174  vim /etc/cron.d
+  175  sudo certbot renew --dry-run
+  176  history
+  177  sudo certbot --nginx -d shopapi.nytu.ne
+  178  sudo certbot --nginx -d shopapi.nytu.net
+  179  sudo ufw status
+  180  telnet localhost 443
+  181  sudo nano default 
+  182  sudo service nginx restart
+  183  sudo nano default 
+  184  sudo service nginx restart
+  185  history > history.txt
+  186  vim history.txt 
+  187  exit
+  188  cd shopML/
+  189  ../anaconda3/bin/python manage.py runserver 0.0.0.0:80
+  190  ../anaconda3/bin/python manage.py runserver 0.0.0.0:8000
+  191  clear
+  192  cd ..
+  193  nano runme.sh
+  194  pwd
+  195  nano runme.sh
+  196  chmod 755 runme.sh 
+  197  ./runme.sh 
+  198  nohup run &
+  199  fg
+  200  nohup ./runme.sh &
+  201  ls -al
+  202  tail -f nohup.out 
+  203  ps auxww|grep runme
+  204  kill -9 2994
+  205  ./runme.sh 
+  206  nano runme.sh 
+  207  ./runme.sh 
+  208  nohup ./runme.sh  &
+  209  ps aux | grep jupyter
+  210  ps aux | grep run
+  211  ls
+  212  history > history.txt 
